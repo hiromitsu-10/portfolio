@@ -1,0 +1,48 @@
+.contact{
+ .content{
+        padding-top: 5%;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+        h2{
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        h3{
+            margin-top: 4vh;
+            margin-bottom: 0;
+        }
+        ul{
+            list-style: none;
+            line-height: 10vh;
+            .instagram{
+                // background-color: #D93177;
+                background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+            }
+            .twitter{
+                background-color: #55acee;
+            }
+            .github{
+                background-color: black;
+            }
+            .wantedly{
+                background-color: blue;
+            }
+            .btn {
+                border-radius: 4px;
+                color: white;
+                padding: 3px;
+            }
+            .btn :hover{
+                opacity: 0.6;
+            }
+        }
+        a{
+            text-decoration: none;
+            font-size: 3vh;
+        }
+        a :hover{
+            opacity: 0.6;
+        }
+    }
+}

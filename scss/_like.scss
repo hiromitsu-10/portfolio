@@ -1,0 +1,37 @@
+.like{
+    .content{
+        h2{
+            padding-left:5vh ;
+            // text-align: center;
+            margin-top: 5vh;
+        }
+        ul{
+            margin-bottom: 5vh;
+            padding-left: 10vh;
+            li{
+                font-size: 18px;
+                line-height: 4vh;
+                position: relative;
+            }
+        }
+        ul li::after {
+            display: block;
+            content: '';
+            position: absolute;
+            // top: .5em;
+            // left: -1em;
+            top: 1vh;
+            left: -3vh;
+            // width: 8px;
+            // height: 3px;
+            width: 1.5vh;
+            height: 0.5vh;
+            // border-left: 2px solid #3498db;
+            // border-bottom: 2px solid #3498db;
+            border-left: 0.25vh solid #3498db;
+            border-bottom: 0.25vh solid #3498db;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+    }
+}

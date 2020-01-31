@@ -1,0 +1,61 @@
+.about{
+    .menu1{
+        color: black;
+    }
+    .content{
+        h2{
+            text-align: center;
+            margin-top: 10vh;
+        }
+        p{
+            line-height: 4vh;
+        }
+    }
+}
+
+
+
+
+// .content-sns{
+
+//             padding-top: 5%;
+//             width: 99%;
+//             text-align: center;
+//             background-color: #f0f0f0;
+//         h2{
+//             font-size: 3vh;
+//             margin-bottom: 0;
+//         }
+//         h3{
+//             margin-top: 3vh;
+//             margin-bottom: 0;
+//         }
+//         ul{
+//             list-style: none;
+//             line-height: 8vh;
+//             .instagram{
+//                 background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+//             }
+//             .twitter{
+//                 background-color: #55acee;
+//             }
+//             .github{
+//                 background-color: black;
+//             }
+//             .btn {
+//                 border-radius: 4px;
+//                 color: white;
+//                 padding: 1vh;
+//             }
+//             .btn :hover{
+//                 opacity: 0.6;
+//             }
+//         }
+//         a{
+//             text-decoration: none;
+//             font-size: 2.5vh;
+//         }
+//         a :hover{
+//             opacity: 0.6;
+//         }
+//     }
